@@ -14,14 +14,14 @@ Proyecto para transmitir datos desde terminales IoT a un dashboard en Grafana, u
    git clone https://github.com/Pablo4604/HydroSense.git
 
 2. Instalar dependencias:
-   
+
    pip install -r scripts/requirements.txt
 
-3. Ejecutar script:
+4. Ejecutar script:
    
-   python scripts/hivemq_to_mysql.py
+   python scripts/mqtt_a_mysql.py
 
-4. Configuración de Grafana
+5. Configuración de Grafana
    
    Importar el dashboard desde /grafana/dashboard.json.
 
