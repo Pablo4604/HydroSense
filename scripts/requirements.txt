@@ -1,0 +1,5 @@
+cat > scripts/requirements.txt << 'EOF'
+paho-mqtt==1.6.1
+mysql-connector-python==8.0.28
+python-dotenv==1.0.0
+EOF

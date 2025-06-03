@@ -1,0 +1,17 @@
+cat > grafana/dashboard.json << 'EOF'
+{
+  "title": "IoT Data Dashboard",
+  "panels": [
+    {
+      "title": "Datos en Tiempo Real",
+      "type": "graph",
+      "datasource": "MySQL",
+      "targets": [
+        {
+          "sql": "SELECT timestamp, value FROM sensor_data_view"
+        }
+      ]
+    }
+  ]
+}
+EOF

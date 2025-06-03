@@ -1,0 +1,13 @@
+
+#### **G. Git Ignore (`.gitignore`)**
+```bash
+cat > .gitignore << 'EOF'
+# Python
+__pycache__/
+*.pyc
+.env
+
+# IDE
+.vscode/
+.idea/
+EOF
